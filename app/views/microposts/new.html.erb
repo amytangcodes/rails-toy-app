@@ -1,0 +1,23 @@
+<section class="section section--tight">
+  <div class="container">
+    <div class="row gutter-bottom page-header">
+      <div class="col">
+        <h1>New Micropost</h1>
+      </div>
+    </div>  
+
+    <div class="row gutter-bottom page-content">
+      <div class="col">
+        <%= render 'form', micropost: @micropost %>
+      </div>
+    </div>  
+
+
+    <div class="row gutter-bottom">
+      <div class="col">
+        <%= link_to 'Back', microposts_path %>       
+      </div>
+    </div>
+
+  </div>
+</section>

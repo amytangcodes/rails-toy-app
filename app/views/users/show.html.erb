@@ -1,0 +1,31 @@
+<section class="section section--tight">
+  <div class="container">
+    <div class="row gutter-bottom">
+      <div class="col">
+        <p id="notice"><%= notice %></p>
+      </div>
+    </div>
+
+    <div class="row gutter-bottom page-header">
+      <div class="col">
+        <h1 class="text-capitalize"><%= @user.name %></h1>
+      </div>
+    </div>
+    
+    <div class="row gutter-bottom">
+      <div class="col">
+        <label>Email:</label>
+        <span><%= @user.email %></span>
+      </div>
+    </div>
+    
+    <div class="row gutter-bottom">
+      <div class="col">
+        <%= link_to 'Edit', edit_user_path(@user) %> |
+        <%= link_to 'Back', users_path %>
+      </div>
+    </div>
+    
+
+  </div>
+</section>

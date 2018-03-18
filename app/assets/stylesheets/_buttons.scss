@@ -1,0 +1,35 @@
+.button-primary {
+  -webkit-box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
+  box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
+  border-width:0;
+  border-style:solid;
+  border-color:transparent;
+  display:inline-block;
+  padding:1.0625em 1.875em;
+  border-radius:5px;
+  font-family:'ShopifySans', Helvetica, Arial, sans-serif;
+  font-weight:700;
+  font-size:1em;
+  line-height:1.133;
+  -webkit-font-smoothing:antialiased;
+  -webkit-transition:150ms ease;
+  transition:150ms ease;
+  -webkit-transition-property:background-color border-color color;
+  transition-property:background-color border-color color;
+  text-align:center;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor:pointer;
+  &:hover {
+    box-shadow:0 5px 25px 0 rgba(0,0,0,0.25);
+  }
+  &:focus {
+    box-shadow:0 0 0.1875em 0.1875em rgba(92,106,196,0.5);
+    outline:0;
+  }
+}
